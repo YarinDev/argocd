@@ -24,7 +24,8 @@ spec:
               protocol: TCP
           imagePullPolicy: IfNotPresent
 # Update with the image you build in part 1
-          image: 'quay.io/yarin_get/argocd:v1'
+          image: '
+          /yarin_get/argocd:v2'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
